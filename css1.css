@@ -1,0 +1,124 @@
+*{
+
+
+	margin: 1; padding: ;
+	box-sizing: ; border-box;
+	font-family: 'josefin sans',sans-serif;
+}
+
+
+header{
+
+
+   width: 100; height: 100vh;
+  background-image: url(tree.png.png);
+}	  
+
+nav{
+
+width: 100%;
+height: 15vh;
+background: rgba(0,0,0,0.5);
+color: white;
+display: flex;
+justify-content: space-between;
+align-items: center;
+text-transform: uppercase;
+
+
+}
+.logo{
+
+	width: 25%;text-align: center;
+}
+.menu{
+	width: 40%;
+	display: flex;
+	justify-content: space-around;
+}
+.menu a{
+
+
+	color: white; text-decoration: none;
+	font-weight: bold;
+}
+main{
+	width: 100%; height: 85vh;
+
+display: flex;
+justify-content: center; align-items: center;
+text-align: center;
+
+}
+section h3{
+
+
+	font-size: 35px;
+	font-weight: 200;
+	letter-spacing: 3px;
+	text-shadow: 1px 2px 2px red;
+}
+section h1{
+
+	margin: 30px 0 20px 0;
+	font-size: 35px;
+	font-weight: 700;
+
+
+	text-shadow: 2px 1px 5px red;
+}
+section p{
+	font-size: 25px;
+	word-spacing: 2px;
+	margin-bottom: 25px;
+	text-shadow: 1px 1px 2px red;
+}
+section{
+	padding-top: 40px;
+}
+section a{
+	padding: 12px 30px;
+	border-radius: 4px;
+	outline: none;
+	text-transform: uppercase;
+	font-size: 13px;
+	font-weight: 500;
+	text-decoration: none;
+	letter-spacing: 1px;
+}
+.btnone{
+
+	background: red;
+	color: white;
+	margin-right: 15px;
+}
+.btntwo{
+	background:green ;
+	color: black;
+}
+.change_content:after{
+	content: '';
+	animation: changetext 10s infinite linear;
+	color:green ;
+
+
+}
+
+@keyframes changetext{
+0%{content: "human";}
+20%{content: "person";}
+35%{content: "100";}
+60%{content: "noo";}
+80%{content: "student";}
+100%{content: "no one";}
+}
+.btnone:hover{
+	background:green ;
+	color: black;
+}
+.btntwo:hover{
+	background: red;
+	color: white;
+}
+
+
